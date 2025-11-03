@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+.aside{
+    background-color: #FAFAFA;
+    width: 17%;
+    height: 848px;
+    border: solid 1px #E2E8F0;
+}
+.main{
+    background-color: #F0F8FF;
+    width: 83%;
+}
+.header{
+    border: solid 1px #E2E8F0;
+    padding: 25px;
+    font-size: 10px;
+}
+.petConnect-asidebar{
+    padding: 5px;
+    font-size: 15px;
+}
