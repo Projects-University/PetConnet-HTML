@@ -11,6 +11,5 @@ boton_mobil.addEventListener("click",()=>{
     aside.style.flexDirection = "column";
     aside.style.height = "844px";
     sectionAsidebar.style.paddingTop = "400px";
-    menuDesplegado = true;
   }
 })
