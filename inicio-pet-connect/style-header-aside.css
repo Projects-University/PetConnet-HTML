@@ -18,11 +18,13 @@ a{
     width: 307px;
     height: 550px;
     border: solid 1px #E2E8F0;
+    position: fixed;
 
 }
 .main{
     background-color: #F0F8FF;
     width: 80%;
+    margin-left: 307px;
 }
 .header{
     border: solid 1px #E2E8F0;
@@ -70,7 +72,7 @@ ul{
 }
 
 .section-asidebar{
-    padding-top: 100px;
+    padding-top: 130px;
 }
 .section-asidebar-img{
     border-radius: 900px;
@@ -86,4 +88,23 @@ ul{
     padding-left: 10px;
     color: #64748B;
     font-weight: 100;
+}
+.boton-mobil{
+    display: none;
+}
+@media (max-width: 915px){
+    aside{
+        display: none;
+    }
+    .main{
+        margin-left: 0px;
+        width: 100%;
+        
+    }
+    .boton-mobil{
+        display: flex;
+        background-color: #F0F8FF;
+        border: none;
+        padding-right: 5px;
+    }
 }
