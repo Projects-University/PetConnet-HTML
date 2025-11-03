@@ -1,6 +1,6 @@
 const boton_mobil = document.querySelector(".boton-mobil");
 const aside = document.querySelector(".aside");
-const sectionAsidebar = document.querySelector(".section-asidebar")
+const sectionAsidebar = document.querySelector(".section-asidebar");
 
 
 boton_mobil.addEventListener("click",()=>{
