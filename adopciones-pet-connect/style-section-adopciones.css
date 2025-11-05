@@ -1,0 +1,39 @@
+.section-buttom-adopcion{
+    background-color: #FFAC47;
+    right: 0;
+    position: absolute;
+    margin-right: 30px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #E2E8F0;
+    cursor: pointer;
+}
+.section-buttom-adopcion-a{
+    text-decoration: none;
+    color: black;
+}
+.section-div-buttom-adopcion{
+    height: 80px;
+}
+.section-flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-cards{
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #E2E8F0;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.section-cards-div-imgs{
+    width: 100%;
+    background-color: aqua;
+    height: 150px;
+    overflow: hidden;
+}
+.section-cards-div-imgs img{
+    object-fit: cover;
+}
