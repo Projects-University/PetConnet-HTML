@@ -25,7 +25,7 @@
     width: 300px;
     margin: 10px;
     border: 1px solid #E2E8F0;
-    background-color: bisque;
+    background-color: #FFFFFF;
     border-radius: 10px;
 }
 .section-cards-div-imgs{
@@ -36,4 +36,35 @@
 }
 .section-cards-div-imgs img{
     object-fit: cover;
+}
+.section-cards-div-text{
+    padding: 20px;
+}
+.section-card-div-h4{
+    color: #6E819A;
+    padding: 10px 0px 10px 0px;
+    font-size: small;
+}
+.section-card-div-p{
+    font-size: small;
+    padding-bottom: 10px;
+}
+.section-card-div-img{
+    border-radius: 900px;
+    margin-left: 10px;
+}
+.section-card-div-contact-p{
+    font-size: small;
+    line-height: 25px;
+}
+.section-card-div-button{
+    border-radius: 10px;
+    border: 1px solid #FFAC47;
+    background-color: #FFAC47;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+}
+.section-card-div-a{
+    color: black;
 }
