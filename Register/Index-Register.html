@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-header-aside.css">
+    <link rel="stylesheet" href="Style-Regiter.css">
+    <title>Registro</title>
+</head>
+<body>   
+        <div class="form-card hidden" id="register-card">
+            <h2 class="title">Crear Cuenta</h2>
+
+            <form class="register-form">
+                <div class="input-group">
+                    <label for="register-name">Nombre Completo</label>
+                    <input type="text" id="register-name" required>
+                </div>
+                <div class="input-group">
+                    <label for="register-email">Correo Electrónico</label>
+                    <input type="email" id="register-email" required>
+                </div>
+                <div class="input-group">
+                    <label for="register-password">Contraseña</label>
+                    <input type="password" id="register-password" placeholder="Mínimo 8 caracteres" required>
+                </div>
+                <div class="input-group">
+                    <label for="register-confirm-password">Confirmar Contraseña</label>
+                    <input type="password" id="register-confirm-password" required>
+                </div>
+                <button type="submit" class="btn primary">Registrarse</button>
+            </form>
+
+            <p class="toggle-text">
+                ¿Ya tienes cuenta?
+                <a href="/PetConnet-HTML-main/Login/IndexLogin.html" onclick="toggleForm('login')">Iniciar Sesión</a>
+            </p>
+        </div>
+    </div>
+    <script src="index.js"></script> 
+</body>
+</html>
