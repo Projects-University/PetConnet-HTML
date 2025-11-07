@@ -20,13 +20,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
 }
 .section-cards{
-    width: 300px;
+    width: 80%;
     margin: 10px;
     border: 1px solid #E2E8F0;
     background-color: #FFFFFF;
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
 }
 .section-cards-div-imgs{
     width: 100%;
@@ -47,6 +50,7 @@
 }
 .section-card-div-p{
     font-size: small;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 .section-card-div-img{
@@ -68,18 +72,6 @@
 .section-card-div-a{
     color: black;
 }
-.section-card-div-p2{
-    color: #6E819A;
-    font-size: smaller;
-}
-.img-section-div{
-    width: 300px; /* Ancho deseado del contenedor */
-    height: 200px; /* Alto deseado del contenedor */
-    overflow: hidden; /* Oculta el exceso de la imagen */
-
-    /* Propiedades clave para centrar el fondo */
-    background-image: url('tu-imagen.jpg');
-    background-size: cover; /* Escala la imagen para cubrir el área, cortando lo que no cabe */
-    background-position: center center; /* ¡Centra la imagen horizontal y verticalmente! */
-    background-repeat: no-repeat;
+.img{
+    border-radius: 100px;
 }
