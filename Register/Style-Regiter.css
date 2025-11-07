@@ -137,3 +137,8 @@ input:focus {
 .toggle-text a:hover {
     text-decoration: underline;
 }
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}

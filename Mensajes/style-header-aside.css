@@ -3,6 +3,9 @@
     padding: 0px;
     font-family: sans-serif;
 }
+body{
+    background-color: #F0F8FF;
+}
 li{
     list-style: none;
 }
@@ -72,7 +75,7 @@ ul{
 }
 
 .section-asidebar{
-    padding-top: 430px;
+    padding-top: 130px;
 }
 .section-asidebar-img{
     border-radius: 900px;

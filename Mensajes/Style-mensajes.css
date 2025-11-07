@@ -1,0 +1,63 @@
+/* EL CONTENEDOR PRINCIPAL */
+.section-flex-column {
+    display: flex; /* Basta con display: flex; */
+    flex-direction: column; /* Apila los mensajes (columna) */
+    width: 100%; /* El contenedor debe ocupar todo el ancho disponible */
+    padding: 10px;
+}
+.section-flex-row{
+    display: flex;
+    border: 1px solid #E2E8F0;
+    padding: 15px;
+}
+
+/* MENSAJE IZQUIERDA (Por defecto a la izquierda, puedes centrarlo si deseas) */
+.izquierda {
+    /* La alineación por defecto de Flexbox ya los deja a la izquierda */
+    align-self: flex-start; /* Opcional: asegura que ocupe solo el ancho del contenido */
+    max-width: 70%; /* Opcional: para que el mensaje no ocupe todo el ancho */
+    margin-bottom: 10px;
+    padding: 8px 12px;
+}
+
+/* MENSAJE DERECHA (¡La clave está aquí!) */
+.derecha {
+    /* Mueve el elemento hacia el extremo derecho del contenedor flex */
+    margin-left: auto; 
+    align-self: flex-end; /* Opcional: asegura que ocupe solo el ancho del contenido */
+    max-width: 70%; /* Opcional: para que el mensaje no ocupe todo el ancho */
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    margin-right: 20px;
+}
+
+/* CLASES DE ESTILO GENERALES (Ajustadas para la prueba) */
+.border-left {
+    border: 1px solid #E2E8F0;
+    border-radius: 15px 15px 15px 0; /* Bordes redondeados para simular burbuja */
+}
+.border-rigth {
+    border: 1px solid #FFAC47;
+    border-radius: 15px 15px 0 15px;
+}
+.bg-color-left {
+    background-color: white;
+}
+.bg-color-rigth {
+    background-color: #FFAC47;
+    color: black; /* Mejor visibilidad del texto */
+}
+
+/* Otros estilos que tenías */
+body {
+    background-color: #F0F8FF;
+}
+.section-div-head {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #E2E8F0;
+}
+img {
+    border-radius: 100px;
+    margin-right: 10px;
+}
