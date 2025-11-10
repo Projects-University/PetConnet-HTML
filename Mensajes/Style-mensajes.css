@@ -61,3 +61,35 @@ img {
     border-radius: 100px;
     margin-right: 10px;
 }
+.section-input-div{
+    height: 50px;
+    bottom: 0px;
+    border: 1px solid #E2E8F0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    padding: 10px;
+}
+.section-input{
+    width: 50%;
+    color: #E2E8F0;
+    background-color: #F0F7FE;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: #E2E8F0;
+}
+.section-input-flex{
+    display: flex;
+}
+.section-buttom-clip{
+    border: none;
+    background-color: #F0F8FF;
+    color: black;
+    width: 50px;
+}
+.section-button-send{
+    border: none;
+    background-color: #F0F8FF;
+    color: #FFAC47;
+    width: 50px;
+}
