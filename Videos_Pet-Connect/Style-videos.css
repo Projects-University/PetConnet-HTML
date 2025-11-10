@@ -69,3 +69,73 @@
 .section-card-div-a{
     color: black;
 }
+
+.div-reportar-mascota{
+    /* 1. Posicionamiento Fijo (para centrar en la ventana) */
+    position: fixed;
+    
+    /* 2. Centrado Geométrico */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Ajusta el centro del div al 50%/50% */
+    
+    /* 3. Dimensiones de ejemplo */
+    width: 300px;
+    height: 180px;
+    background-color: #F0F8FF;
+    border: 2px solid #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    display: none;
+}
+.div-reportar-mascota-p{
+    color: #6B7A90;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.div-reportar-mascota-h3{
+    font-size: medium;
+    padding: 10px;
+    font-weight: 700;
+}
+.div-reportar-mascota-div{
+    margin-bottom: 10px;
+}
+label{
+    font-size: small;
+    text-align: right;
+    margin-right: 5px;
+}
+input{
+    padding: 3px;
+    border: 1px solid #FEB359;
+    border-radius: 5px;
+}
+.section-button-reportar-mascota-publicar{
+    width: 80%;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid #FFAC47;
+    background-color: #FFAC47;
+    cursor: pointer;
+    margin: 3px;
+}
+.section-button-reportar-mascota-cancelar{
+    width: 80%;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #F0F8FF;
+    cursor: pointer;
+}
+
+.section-button-reportar-mascota-publicar:hover{
+    background-color: #da933b;
+    border-color: #da933b;
+    transition: 100ms;
+}
+.section-button-reportar-mascota-cancelar:hover{
+    background-color: #cad2da;
+    transition: 100ms;
+}
